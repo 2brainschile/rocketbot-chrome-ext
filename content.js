@@ -1,7 +1,7 @@
 /*global chrome*/
 
 const FIELD_NAME = 'ID CLIENTE';
-const URL = 'http://back.contablechile.com/admin/estado_clientes?q[rut_contains]=';
+const URL = 'http://example.com?q=';
 
 $(document).ready(function() {
   const path = window.location.pathname.split('/')
